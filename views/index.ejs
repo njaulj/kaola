@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+		<table>
+			<%products.forEach(function(product,index){%>
+			<tr>
+				<td>
+					<img src="<%=product.imgs[0]%>" />
+				</td>
+				<td>
+					<%=product.title%>
+				</td>
+				
+				<td>
+					<%=product.currentPrice%>
+				</td>
+				<td>
+					<%=product.marketPrice%>
+				</td>
+				<td>
+					<%=product.parameters[0]%>
+				</td>
+
+			</tr>
+			<%})%>
+
+		</table>
+	</body>
+</html>
