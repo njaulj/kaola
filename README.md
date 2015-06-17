@@ -1,6 +1,6 @@
 # kaola
 
-**we use qiniu for cloud_store**
+**we use qiniu for cloud_store,first please set your qiniu parameters in configs/config.js**
 
 **1.please star,hiahia**
 
@@ -22,6 +22,10 @@ then
 ```js
 
 node app 
+
+run your browse
+
+http://localhost:3000
 ```
 
 you can get your kaola list
